@@ -45,22 +45,4 @@ df_reason_mod['Education'] = df_reason_mod['Education'].map({1:0, 2:1, 3:1, 4:1}
 # Export the preprocessed csv:
 df_preprocessed = df_reason_mod.copy()
 new_csv_data = df_preprocessed.to_csv(index=False, encoding='utf-8')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
